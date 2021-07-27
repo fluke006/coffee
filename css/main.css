@@ -195,3 +195,111 @@ img {
 
 /*========= collection =========*/
 
+.collection{
+   margin-bottom: 190px;
+}
+
+.collection-list{
+   position: relative;
+   display: flex;
+   margin: 0;  
+   padding: 0;
+   padding-top: 170px;
+   list-style-type: none;
+}
+
+.collection-list::before{
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   display: inline-block;
+   background-image: url("../image/ourcollection.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+   
+}
+
+.collection-item{
+   position: relative;
+   width: 280px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+   padding-top: 250px;  
+}
+
+.collection-item:nth-child(1)::before{
+   position: absolute;
+   top: -10px;
+   left: 0; 
+   width: 255px;
+   height: 193px;
+   display: inline-block;
+   background-image: url("../image/kopi1\ copy.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.collection-item:nth-child(2)::before{
+   position: absolute;
+   top: -10px;
+   left: 0; 
+   width: 255px;
+   height: 193px;
+   display: inline-block;
+   background-image: url("../image/kopi2.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.collection-item:nth-child(3)::before{
+   position: absolute;
+   top: -10px;
+   left: 0; 
+   width: 255px;
+   height: 193px;
+   display: inline-block;
+   background-image: url("../image/kopi3.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.collection-item:nth-child(4)::before{
+   position: absolute;
+   top: -10px;
+   left: 0; 
+   width: 255px;
+   height: 193px;
+   display: inline-block;
+   background-image: url("../image/kopi4.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.collection-item-heading{
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+   color: #333D4B;
+}
+
+.collection-item-info{
+   width: 255px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #333D4B;
+}
