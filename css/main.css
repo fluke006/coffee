@@ -184,12 +184,12 @@ img {
    text-align: center;
    text-decoration: none;
    color: #FEFCF7;
-   background: #0E8784;
+   background-color: #0E8784;
    border-radius: 6px;
 }
 
 .hero-link:hover{
-   background: #66D2CF;
+   background-color: #66D2CF;
    border-radius: 6px;
 }
 
@@ -425,3 +425,107 @@ img {
    color: #FEFCF7;
 }
 
+/*============= work =============*/
+
+.work-heading{
+   margin-left: 200px;
+   margin-bottom: 24px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+}
+
+.work-list{
+   display: flex;
+   margin: 0;
+   margin-left: 200px;
+   margin-bottom: 80px;
+   padding: 0;
+   list-style-type: none;
+}
+
+.work-item{
+   position: relative;
+   width: 290px;
+   margin-right: 90px;
+   padding-top: 100px;
+}
+
+.work-item:nth-child(1)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "01";
+}
+
+.work-item:nth-child(2)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "02";
+}
+
+.work-item:nth-child(3)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "03";
+}
+
+.work-item-heading{
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+}
+
+.work-item-info{
+   width: 285px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+
+.work-link{
+   width: 217px;
+   margin-left: 200px;
+   padding: 16px 31px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   text-decoration: none;
+   color: #FEFCF7;
+   background-color: #0E8784;
+   border-radius: 6px;
+}
+
+.work-link:hover{
+   background-color: #66D2CF;
+   border-radius: 6px;
+}
