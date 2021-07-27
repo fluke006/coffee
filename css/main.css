@@ -45,8 +45,7 @@
 body {
    margin: 0;
    padding: 0;
-   padding-top: 54px;
-   font-family: 'Open Sans', 'sans-serif';
+   font-family:"Barlow", sans-serif, "Fraunces", serif ;
    font-size: 16px;
    line-height: 1.5;
 }
@@ -74,3 +73,42 @@ img {
 
 /* ================ header ================ */
 
+.header{
+   padding-top: 45px;
+}
+
+.header .container{
+   display: flex;
+   align-items: center;
+}
+
+.logo-link{
+   margin-right: auto;
+   text-decoration: none;
+}
+
+.nav {
+   display: flex;
+   margin-left: auto;
+}
+
+.nav-list {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.nav-link{
+   padding-right: 33px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   text-decoration: none;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: #83888F;
+}
