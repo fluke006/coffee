@@ -35,3 +35,42 @@
    url('../fonts/fraunces-v10-latin-900.woff') format('woff');
 }
 
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   padding-top: 54px;
+   font-family: 'Open Sans', 'sans-serif';
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+img {
+   vertical-align: middle;
+}
+
+.container {
+   width: 1240px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/* ================ header ================ */
+
