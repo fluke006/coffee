@@ -426,6 +426,9 @@ img {
 }
 
 /*============= work =============*/
+.work{
+   margin-bottom: 200px;
+}
 
 .work-heading{
    margin-left: 200px;
@@ -529,3 +532,58 @@ img {
    background-color: #66D2CF;
    border-radius: 6px;
 }
+
+/*================== footer ==================*/
+
+.footer{
+   padding-top: 48px;
+   padding-bottom: 30px;
+   background-color: #2C343E;
+}
+
+.footer .container{
+   display: flex;
+   align-items: center;
+}
+
+.footer-logo-link{
+   margin-right: auto;
+   text-decoration: none;
+}
+
+.footer-list{
+   display: flex;
+   margin: 0;
+   margin-right: 500px;
+   padding: 0;
+   list-style-type: none;
+}
+
+.footer-link{
+   padding-right: 30px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   text-decoration: none;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #83888F;
+}
+
+.footer-link:hover{
+   color: #ffffff;
+}
+
+.footer-list-two{
+   display: flex;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.footer-link-two{
+   padding-right: 24px;
+}
+
