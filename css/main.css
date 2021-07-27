@@ -75,7 +75,7 @@ img {
 
 .header{
    padding-top: 45px;
-   margin-right: 45px;
+   margin-bottom: 35px;
 }
 
 .header .container{
@@ -120,18 +120,25 @@ img {
 
 /*================ main ================*/
 
+/*============= hero =============*/
+
 .hero{
+   height: 600px;
+   margin-bottom: 10px;
+}
+
+.hero-page{
    position: relative;
 }
 
-.hero-page {
+.hero-span {
    position: absolute;
    z-index: -1;
+   left: 2px;
+   top: -80px;
+   display: block;
    width: 1280px;
    height: 600px;
-   left: 90px;
-   top: 113px;
-   display: block;
    background-image: url("../image/Bitmap.jpg");
    background-size: contain;
    background-repeat: no-repeat;
@@ -180,3 +187,11 @@ img {
    background: #0E8784;
    border-radius: 6px;
 }
+
+.hero-link:hover{
+   background: #66D2CF;
+   border-radius: 6px;
+}
+
+/*========= collection =========*/
+
